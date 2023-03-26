@@ -1,5 +1,3 @@
-# Copyright 2023 Kacper Wieleba
-# Licensed under the MIT License.
 import tkinter as tk
 import cv2
 from PIL import Image, ImageTk
