@@ -5,4 +5,4 @@ This program is a starting point for a future engineering project. It captures v
 
 ## License
 
-This code is licensed under the MIT License. See the LICENSE file for details.
+This code is licensed under the CC-BY-NC-ND-4.0 License. See the LICENSE file for details.
