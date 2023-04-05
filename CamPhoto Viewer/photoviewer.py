@@ -21,6 +21,7 @@ class PhotoViewer:
             self.window.bind("<a>", lambda _: self.change_image(-1))
             self.window.bind("<d>", lambda _: self.change_image(1))
             self.window.bind("<f>", lambda _: self.detect_faces())
+            self.window.bind("<BackSpace>", lambda _: self.delate_photo())
             
             self.window.mainloop()
             
@@ -51,6 +52,15 @@ class PhotoViewer:
     def change_image(self, delta):
         self.current_image_index = (self.current_image_index + delta) % len(self.image_list)
         self.display_image()
+    
+    def delate_photo(self):
+        if self.image_list:
+            os.remove(self.image_list[self.current_image_index])
+            self.image_list.pop(self.current_image_index)
+            self.current_image_index = min(self.current_image_index, len(self.image_list) - 1)
+            self.display_image()
+        else:
+            self.img_canvas.create_text(400, 300, text="No images found!", fill="red", font=("Arial", 24))
 
     def detect_faces(self):
         self.img = cv2.imread(self.image_list[self.current_image_index])
