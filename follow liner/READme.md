@@ -1,1 +1,0 @@
-Small arduino follow liner project. Using robot with 4 reflective sensors we have robot which follow line. Used pins A0-A3. Steering motors using pins 7-10. Additionaly we have in serial monitor displayed feedback from sensors and calculated deviation (used to changing motors speed -> turing robot left/right)
