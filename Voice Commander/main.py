@@ -1,4 +1,3 @@
-# do dodania webscraping, obsługa systemu- pliki monitor, kodowanie/ pisanie
 import pyautogui
 import pyttsx3
 import speech_recognition as sr 
