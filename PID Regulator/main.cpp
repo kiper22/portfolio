@@ -24,13 +24,13 @@ int main(void)
 	
 	// port zadawanej prędkości obrotowej
 	uint8_t predkosc_zadana = 242;
-	PORTA = predkosc_zadana;
+	PINA = predkosc_zadana;
 	
 	// port do włączania i wyłączania I oraz D ustawiamy na włączone
-	DDRA = _BV(0) | _BV(1);
+	PIND = _BV(0) | _BV(1);
 	
 	while (1){
-		predkosc_zadana = PORTA;
+		predkosc_zadana = PINA;
 		int predkosc_aktualna = PORTB;
 		//predkosc_aktualna = predkosc_aktualna * 200 / 255;
 		
