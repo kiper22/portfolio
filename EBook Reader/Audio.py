@@ -27,9 +27,6 @@ class Audio():
         self.engine.setProperty('rate', self.settings.rate)
         self.engine.setProperty('volume', self.settings.volume)
         
-        
-        
-        print('\n dupa \n')
         self.engine.say(text)
         self.engine.runAndWait()
     
