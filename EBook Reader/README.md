@@ -1,7 +1,7 @@
 # EBook Reader
 
 The program has been written to allow reading books in various formats on a computer. There is posibility to filter and check books library, open books, customize app. It resembles software used in e-readers but also includes an option for automatic text-to-speech reading. 
-In the future there is posibility to add history (open book on last opened page), fullscreen mode for books and develop speaker.
+In the future there is posibility to add history (open book on last opened page), fullscreen mode for books and develop text-to-speech.
 
 ## License
 Copyright (c) 2023, Kacper Wieleba
