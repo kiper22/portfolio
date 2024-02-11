@@ -5,6 +5,8 @@ The project is an engineering diploma thesis. The topic of the work was to creat
 - prepare classifier
 - testing prepared system
 
+Programs that evaluated research results and other ancillary ones are not included
+
 ## Data annotation and YOLO training
 The CFPW [http://www.cfpw.io/] dataset was used to train the yolo network. It was necessary to mark faces in the photos - the best solution was to write program. We need only to mark 1 class (face) as rectangle. Annotation file *.txt must have the same name as the photo. Txt file contains information about the faces position:
 
