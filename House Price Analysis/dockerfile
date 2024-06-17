@@ -1,0 +1,19 @@
+FROM tensorflow/tensorflow:latest-gpu
+
+WORKDIR /house_price_analysis
+
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+# Instalacja code-server (VS Code Server)
+RUN apt-get update && \
+    apt-get install -y curl && \
+    curl -fsSL https://code-server.dev/install.sh | sh
+
+COPY . .
+
+# Otwarcie portu 8080
+EXPOSE 8080
+
+# Określenie domyślnego polecenia
+CMD ["code-server", "--bind-addr", "0.0.0.0:8080", "--auth", "none", "/house_price_analysis"]

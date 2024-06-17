@@ -1,0 +1,53 @@
+
+Model: LightGBM_2
+Params: {'n_estimators': 209, 'learning_rate': 0.15147562248323188, 'num_leaves': 39, 'max_depth': 19, 'min_child_samples': 69, 'subsample': 0.8918402180726176, 'colsample_bytree': 0.7088028625970795}
+Mean Squared Error: 4466748276.8659
+R2 Score: 0.8412
+
+Model: NN ADAM_2
+Mean Squared Error: 4578191210.6483
+R2 Score: 0.8372
+Model Architecture: [{'layer_type': 'Dense', 'units': 64, 'activation': 'relu'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dropout', 'rate': 0.1}, {'layer_type': 'Dense', 'units': 16, 'activation': 'relu'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dropout', 'rate': 0.1}, {'layer_type': 'Dense', 'units': 1, 'activation': 'linear'}]
+Optimizer: Adam
+Learning Rate: 0.002
+Batch Size: 128
+Epochs: 25
+
+Model: LightGBM_3
+Params: {'n_estimators': 298, 'learning_rate': 0.09709175119151248, 'num_leaves': 41, 'max_depth': 23, 'min_child_samples': 45, 'subsample': 0.989388042065129, 'colsample_bytree': 0.8220108022890313}
+Mean Squared Error: 4464146599.1434
+R2 Score: 0.8413
+
+Model: NN ADAM_3
+Mean Squared Error: 4591048955.5594
+R2 Score: 0.8368
+Model Architecture: [{'layer_type': 'Dense', 'units': 64, 'activation': 'relu'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dropout', 'rate': 0.1}, {'layer_type': 'Dense', 'units': 16, 'activation': 'relu'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dropout', 'rate': 0.1}, {'layer_type': 'Dense', 'units': 1, 'activation': 'linear'}]
+Optimizer: Adam
+Learning Rate: 0.0015
+Batch Size: 128
+Epochs: 25
+
+Model: LightGBM_1
+Params: {'n_estimators': 191, 'learning_rate': 0.09202394332173419, 'num_leaves': 43, 'max_depth': 24, 'min_child_samples': 52, 'subsample': 0.6918806261736214, 'colsample_bytree': 0.8224305732466737}
+Mean Squared Error: 4469507545.7186
+R2 Score: 0.8411
+
+Model: NN ADAM_1
+Mean Squared Error: 4565834980.6248
+R2 Score: 0.8377
+Model Architecture: [{'layer_type': 'Dense', 'units': 16, 'activation': 'relu'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dense', 'units': 8, 'activation': 'relu'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dense', 'units': 4, 'activation': 'relu'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dense', 'units': 1, 'activation': 'linear'}]
+Optimizer: Adam
+Learning Rate: 0.003
+Batch Size: 128
+Epochs: 25
+
+Model: NN SGD_1
+Mean Squared Error: 4505374208.0000
+R2 Score: 0.8405
+Model Architecture: [{'layer_type': 'Dense', 'units': 38, 'activation': 'relu', 'kernel_regularizer': 'L2(0.01)'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dense', 'units': 22, 'activation': 'relu', 'kernel_regularizer': 'L2(0.01)'}, {'layer_type': 'BatchNormalization'},{'layer_type': 'Dense', 'units': 14, 'activation': 'relu', 'kernel_regularizer': 'L2(0.01)'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dense', 'units': 8, 'activation': 'relu', 'kernel_regularizer': 'L2(0.01)'}, {'layer_type': 'BatchNormalization'}, {'layer_type': 'Dense', 'units': 1, 'activation': 'linear', 'kernel_regularizer': 'L2(0.01)'}]
+Optimizer: SGD
+Learning Rate: 1.5e-08
+Momentum: 0.94
+Batch Size: 512
+Epochs: 10
+
