@@ -1,4 +1,7 @@
 # Betting Odds Analysis
+
+Project currently closed due to low profitability.
+
 Project cointaing:
 - data collection - Betting odds data are collected from today's and tomorrow's matches. The collected data is stored in CSV format. CSV files are merged and supplemented to create comprehensive datasets.
 - data analysis - Extensive analysis is conducted on the collected data to derive insights.
@@ -45,4 +48,4 @@ The chart shows the value of the expected profit (without tax) for the plant in 
 ![image](https://github.com/kiper22/portfolio/assets/125763668/f8f39a07-45ad-488e-ad6c-30578ee0b2e4)
 
 ## Neural Networks
-NN are under development. Lately i found web page with huge amount of match data which can be used to learning. Currently, a version for a very simple NN has been prepared.
+NN have slightly better performance than statistic. For better results more data (matches and information from match) is needed.
