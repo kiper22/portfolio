@@ -1,6 +1,6 @@
 # Price Analysis Project
 
-This project contains a price analysis using various machine learning techniques.
+This project contains a price analysis using various machine learning techniques. The goal is to predict the price of an apartment depending on features such as the year of the seller, the type of house or the city.
 
 Source data: https://www.kaggle.com/datasets/joebeachcapital/house-prices-2001-2020/data
 
